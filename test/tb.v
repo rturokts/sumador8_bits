@@ -52,6 +52,6 @@ initial begin
    ui_in = 8'b00000111;
    uio_in = 8'b00001000;
    #10;
-   $finish;
+   
 end
 endmodule

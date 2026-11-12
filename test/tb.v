@@ -45,13 +45,6 @@ module tb ();
       .clk    (clk),      // clock
       .rst_n  (rst_n)     // not reset
   );
-initial begin
-   ui_in = 8'b00000111;
-   uio_in = 8'b00000101;
-   #10;
-   ui_in = 8'b00000111;
-   uio_in = 8'b00001000;
-   #10;
-   
-end
+
+
 endmodule
